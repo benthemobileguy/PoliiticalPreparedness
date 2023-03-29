@@ -9,6 +9,14 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <!-- TODO: Add necessary styles -->
 
+    <style name="ListHeader">
+        <item name="fontFamily">@font/arima_madurai_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="DefaultTextStyle" parent="Widget.AppCompat.TextView" />
+    <style name="HeaderTextStyle" parent="DefaultTextStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/arima_madurai_medium</item>
+    </style>
 </resources>
